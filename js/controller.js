@@ -220,7 +220,7 @@ function sendMessage(id){
     if(total < 200){
         alert("Recuerda que el envio es gratis a partir de $200. Gracias por tu comprensión");
     }
-    const resultado = "https://api.whatsapp.com/send?phone=+522462226195&text=" + buildMessage();
+    const resultado = "https://api.whatsapp.com/send?phone=+522221316797&text=" + buildMessage();
     document.getElementById(id).href = resultado;
         
 }
